@@ -1138,7 +1138,7 @@ inplacemutating(){
     }
 
     [[ -f "$remasteringdir/x"/etc/network/interfaces ]] && sed -i "s/iface eth0 inet dhcp/iface eth0 inet static\n  address $IP\n  netmask $MASK\n  gateway $GATE/g" "$remasteringdir/x"/etc/network/interfaces
-    [[ -f "$remasteringdir/x"/init ]] && sed -i "s/sda/$DEFAULTHD/g" "$remasteringdir/x"/init
+    [[ -f "$remasteringdir/x"/init ]] && sed -i "s/nvme0n1p1/$DEFAULTHD/g" "$remasteringdir/x"/init
     deepumount
 
   }
