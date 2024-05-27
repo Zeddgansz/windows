@@ -72,7 +72,7 @@ clear
 if [[ "$today" > "$valid" ]]; then
   echo -e "${BG_RED}        Script kadaluwarsa. Hubungi admin untuk memperbarui.${NC}"
   echo -e "${BG_RED}[ERROR] contact admin :                                     ${NC}"
-  echo -e "${BG_RED}        Telegram: @RizzNew03 / @Akusiapaoiii                ${NC}"
+  echo -e "${BG_RED}        Telegram: @zeddgans                ${NC}"
   exit 1  # Keluar dengan kode error 1
 fi
 
@@ -80,7 +80,7 @@ while true; do
     clear
     echo -e "${green} ┌────────────────────────────────────────────┐ ${NC}"
     echo -e "${green} │${NC} ${YELLOW}Version         :${NC} ${red}$versi${NC}"
-    echo -e "${green} │${NC} ${YELLOW}Creator         :${NC} ${red}RizzStore${NC}"
+    echo -e "${green} │${NC} ${YELLOW}Creator         :${NC} ${red}zeddgans${NC}"
     echo -e "${green} │${NC} ${YELLOW}Client Name     :${NC} ${red}$buyer${NC}"
     echo -e "${green} │${NC} ${YELLOW}Provider        :${NC} $prov"
     echo -e "${green} │${NC} ${YELLOW}Expiry In       :${NC} ${red}$sisa${NC}"
@@ -128,7 +128,7 @@ while true; do
        # echo -e "${RED}Do With Your Own Risk/lakukan dengan resiko ditanggung sendiri${NC}"
        # read -n 1 -s -r -p "Press any key to continue..."
        echo -e "${red}Provider Tidak Tersedia, Jika ingin request${NC}"
-       echo -e "${red}Contact Develop @RizzNew03${NC}"
+       echo -e "${red}Contact Develop zeddgans${NC}"
 
     fi
 
