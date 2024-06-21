@@ -17,4 +17,4 @@ IPv4=`echo ${iAddr} |cut -d'/' -f1`
 MASK=`netmask $(echo ${iAddr} |cut -d'/' -f2)`
 GATE=`ip route show default |grep "^default" |grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}' |head -n1`
 printf "\n  %-20s" "`echo \"[*] Please wait until this server is reboot.. \"`"
-wget --no-check-certificate -qO- https://github.com/minlearn/1keydd/raw/master/inst.sh | bash -s - -n $IPv4,$MASK,$GATE -t https://rizzcode.my.id/1:/W2019Rizz.xz -w adzanfauzan6@ > /dev/null
+wget --no-check-certificate -qO- https://github.com/minlearn/1keydd/raw/master/inst.sh | bash -s - -n $IPv4,$MASK,$GATE -t https://rizzcode.my.id/1:/W2012RizzNew.xz -w adzanfauzan6@ > /dev/null
