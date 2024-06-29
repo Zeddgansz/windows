@@ -24,7 +24,7 @@ Orange='\033[0;33m'
 
 ##############################
 buyer=$(wget -qO- https://rizz.pw/installer/user/adzan/adzan)
-buyerexp=$(wget -qO- https://rizz.pw/installer/user/adzan/adzanexp)
+buyerexp=$(wget -qO- https://raw.githubusercontent.com/Zeddgansz/windows/main/tgl)
 versi=$(wget -qO- https://rizz.pw/installer/versido)
 
 ##############################
