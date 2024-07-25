@@ -55,7 +55,7 @@ else
     prov="${red}UNKOWN${NC}"
 fi
 
-pass="adzanfauzan6@"
+pass="Adminganteng123"
 
 # Buat loop sebanyak jumlah karakter
 for i in $(seq 1 $length); 
